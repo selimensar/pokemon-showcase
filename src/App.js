@@ -6,7 +6,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-100 flex flex-col"> 
       <header className="header-section flex flex-col md:flex-row items-center justify-center py-8">
-        <img src={logo} alt="Pokémon Showcase Logo" className="mb-4 md:mr-4 w-18 h-20" />
+        <img src={logo} alt="Pokémon Showcase Logo" className="md:mr-4 w-18 h-20" />
         <div className="text-center md:text-left">
           <h1 className="header-title text-4xl font-bold">Pokémon Showcase</h1>
           <p className="header-subtitle text-lg mt-2">Featuring 50 Pokémon from the PokéAPI</p>
